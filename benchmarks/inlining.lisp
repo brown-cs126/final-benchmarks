@@ -1,0 +1,7 @@
+(define (funMath x y) 
+(+ (if (= x y) 
+    (if (< y 5) (+ y 1) (- y 1))
+    (if (< x 5) (- x 1) (+ x 1))
+    )
+    x))
+(print (+ (+ (funMath 6 7) (funMath 6 1)) (funMath 1 2)))
