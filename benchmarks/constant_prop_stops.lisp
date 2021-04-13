@@ -1,0 +1,1 @@
+(print (sub1 (+ (+ 3 4) (read_num))))
