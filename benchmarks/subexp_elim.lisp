@@ -1,0 +1,16 @@
+(define (foo x) 
+  (if (< x 1)
+    (if (< x 1)
+      (if (< x 1)
+	(if (< x 1)
+	  (if (< x 1)
+	    (if (< x 1)
+	      x 
+	      (foo (sub1 x)))
+	    (foo (sub1 x)))
+	  (foo (sub1 x)))
+	(foo (sub1 x)))
+      (foo (sub1 x)))
+    (foo (sub1 x))))
+
+(print (foo 10000))
