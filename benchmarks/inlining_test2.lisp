@@ -1,0 +1,6 @@
+(define (f x y) (if (< x y) x y))
+(define (g x) (if (zero? x) true (sub1 x)))
+(print (let ((a (read-num)))
+    (let ((b (read-num)))
+        (if (num? (g (f a b)))
+            (if (num? (g (g (f a b)))) false (g (f a b))) (f a b)))))
