@@ -1,4 +1,4 @@
-(define (f x y) (add1 (+ x (add1 (- (sub1 (sub1 (+ (add1 y) (sub1 (- (add1 0) 14)))) x))))))
+(define (f x y) (add1 (+ x (add1 (- (sub1 (sub1 (+ (add1 y) (sub1 (- (add1 0) 14))))) x)))))
 (define (g a b c d) 
     (+ a (+ b (+ c 0))))
 

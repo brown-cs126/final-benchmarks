@@ -2,7 +2,7 @@
   (if (< i 10000000)
     (if (pair true false)
       (doYouFoldPairsIfNotYouWillRunOutOfHeapSpace (add1 i))
-      (/ 1 0))
+      (left 1))
     1260))
 
 (let ((comment 1))
